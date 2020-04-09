@@ -1,0 +1,43 @@
+/* vars */
+@import '../../../vars.scss';
+.wave__data--container {
+  position: relative;
+  height: 150px;
+}
+h1 {
+  margin: 0px;
+  padding: 0px;
+  color: $white;
+}
+.wave__height {
+  position: relative;
+  display: inline-block;
+  margin: 0px 0px 0px 140px;
+  padding: 0px;
+  left: 100px;
+}
+.wave__height--measure {
+  font-size: 113px;
+  color: $blueLight;
+  font-family: $primary;
+}
+.wave__county {
+  color: $white;
+}
+.wave__height--ft {
+  color: $blueLight;
+  font-family: $primary;
+  font-size: 24px;
+  position: absolute;
+  right: -15px;
+  top: 20px;
+}
+.wave__county--container {
+  position: absolute;
+  z-index: 2;
+  top: 30px;
+  left: 100px
+}
+.weather__animation-container {
+
+}

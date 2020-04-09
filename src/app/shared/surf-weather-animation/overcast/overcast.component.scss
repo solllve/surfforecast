@@ -1,0 +1,124 @@
+.sun {
+  width: 115px;
+  height: 115px;
+  background: #034078;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  z-index: 1;
+}
+.weather__overcast-container {
+  position: relative;
+  clear: both;
+  display: inline-auto;
+  width: 215px;
+  height: 124px;
+  text-align: center;
+}
+.cloud__upper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+.cloud__lower {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 2;
+}
+#moveCloudLeft {
+  -webkit-animation: moveCloudLeft 10s infinite;
+  -moz-animation:    moveCloudLeft 10s infinite;
+  animation:         moveCloudLeft 10s infinite;
+}
+@-webkit-keyframes moveCloudLeft {
+  0%   {
+    opacity: 1;
+    right: 0px;
+  }
+  50%   {
+    opacity: 0.3;
+    right: 70px;
+  }
+  100% {
+    opacity: 1;
+    right: 0px;
+  }
+}
+@-moz-keyframes moveCloudLeft {
+  0%   {
+    opacity: 1;
+    right: 0px;
+  }
+  50%   {
+    opacity: 0.3;
+    right: 70px;
+  }
+  100% {
+    opacity: 1;
+    right: 0px;
+  }
+}
+@keyframes moveCloudLeft {
+  0%   {
+    opacity: 1;
+    right: 0px;
+  }
+  50%   {
+    opacity: 0.3;
+    right: 70px;
+  }
+  100% {
+    opacity: 1;
+    right: 0px;
+  }
+}
+#moveCloudRight {
+  -webkit-animation: moveCloudRight 10s infinite; /* Safari 4+ */
+  -moz-animation:    moveCloudRight 10s infinite; /* Fx 5+ */
+  animation:         moveCloudRight 10s infinite; /* IE 10+, Fx 29+ */
+}
+@-webkit-keyframes moveCloudRight {
+  0%   {
+    opacity: 0.3;
+    left: 0px;
+  }
+  50%   {
+    opacity: 1;
+    left: 70px;
+  }
+  100% {
+    opacity: 0.3;
+    left: 0px;
+  }
+}
+@-moz-keyframes moveCloudRight {
+  0%   {
+    opacity: 0.3;
+    left: 0px;
+  }
+  50%   {
+    opacity: 1;
+    left: 70px;
+  }
+  100% {
+    opacity: 0.3;
+    left: 0px;
+  }
+}
+@keyframes moveCloudRight {
+  0%   {
+    opacity: 0.3;
+    left: 0px;
+  }
+  50%   {
+    opacity: 1;
+    left: 70px;
+  }
+  100% {
+    opacity: 0.3;
+    left: 0px;
+  }
+}

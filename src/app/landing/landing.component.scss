@@ -1,0 +1,70 @@
+/* vars */
+@import '../../vars.scss';
+
+.landing {
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+}
+.waves {
+  background: url("/assets/background-pattern-bg.svg") repeat-x;
+  height: 560px;
+  width: 5076px;
+  animation: slide 30s linear infinite;
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+}
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+.container_main {
+  position: relative;
+  z-index: 1;
+  clear: both;
+  height: 100%;
+  .container_surf-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    height: 100%;
+    width: 50%;
+    position: relative;
+  }
+  .container_surf-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    height: 100%;
+    width: 50%;
+    position: relative;
+    text-align: left;
+    .title__top, .title__in {
+      font-family: $primary;
+      text-transform: uppercase;
+      font-size: 104px;
+      margin: 0px;
+      padding: 0px;
+      line-height: 100px;
+      width: 100%;
+      color: $white;
+    }
+    .title__in {
+      font-size: 54px!important;
+      position:relative;
+      top: -40px;
+      left: 10px;
+    }
+    .title__clear {
+      width: 100%;
+      clear: both;
+    }
+  }
+}
