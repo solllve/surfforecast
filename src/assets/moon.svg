@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="116px" viewBox="0 0 84 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="44.3115234%" y1="94.6085612%" x2="44.3115234%" y2="6.85221354%" id="linearGradient-1">
+            <stop stop-color="#ECECEC" offset="0%"></stop>
+            <stop stop-color="#FEFCFB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Weather" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-236.000000, -243.000000)" fill="url(#linearGradient-1)">
+            <g id="night" transform="translate(286.000000, 301.000000) scale(1, -1) translate(-286.000000, -301.000000) translate(216.000000, 243.000000)">
+                <path d="M45.6,0 C77.4116016,0 103.2,25.7883984 103.2,57.6 C103.2,89.4116016 77.4116016,115.2 45.6,115.2 C36.3731961,115.2 27.6531017,113.030519 19.9219958,109.173836 C20.4783052,109.191019 21.0381038,109.2 21.6,109.2 C50.0978931,109.2 73.2,86.0978931 73.2,57.6 C73.2,29.1021069 50.0978931,6 21.6,6 C21.0381038,6 20.4783052,6.00898128 19.9207401,6.02680812 C27.6531017,2.16948116 36.3731961,0 45.6,0 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

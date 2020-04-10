@@ -1,3 +1,5 @@
 <div class="surf__weather-animation-container">
-  <app-overcast></app-overcast>
+  <app-overcast *ngIf="hide"></app-overcast>
+  <app-sunny *ngIf="hide"></app-sunny>
+  <app-night *ngIf="show"></app-night>
 </div>

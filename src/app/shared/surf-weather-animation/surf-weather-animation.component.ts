@@ -12,4 +12,8 @@ export class SurfWeatherAnimationComponent implements OnInit {
   ngOnInit() {
   }
 
+  show: boolean = true;
+  hide: boolean = false;
+
+
 }

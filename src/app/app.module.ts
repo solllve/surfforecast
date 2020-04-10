@@ -11,6 +11,8 @@ import { SurfSizeComponent } from './shared/surf-size/surf-size.component';
 import { OrderWavesPipe } from './order-waves.pipe';
 import { SurfWeatherAnimationComponent } from './shared/surf-weather-animation/surf-weather-animation.component';
 import { OvercastComponent } from './shared/surf-weather-animation/overcast/overcast.component';
+import { SunnyComponent } from './shared/surf-weather-animation/sunny/sunny.component';
+import { NightComponent } from './shared/surf-weather-animation/night/night.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,9 @@ import { OvercastComponent } from './shared/surf-weather-animation/overcast/over
     SurfSizeComponent,
     OrderWavesPipe,
     SurfWeatherAnimationComponent,
-    OvercastComponent
+    OvercastComponent,
+    SunnyComponent,
+    NightComponent
   ],
   imports: [
     BrowserModule,

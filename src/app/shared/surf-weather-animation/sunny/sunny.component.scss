@@ -1,0 +1,82 @@
+.sun {
+  width: 115px;
+  height: 115px;
+  background-image: linear-gradient(#EFCE24, #B09E07);
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+}
+.sun__ray {
+  width: 140px;
+  height: 140px;
+  background: #918E11;
+  border-radius: 50%;
+  z-index: 0;
+  position: absolute;
+}
+.weather__overcast-container {
+  position: relative;
+  clear: both;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 215px;
+  height: 124px;
+  text-align: center;
+}
+#sunRayBurst {
+  -webkit-animation: sunRayBurst 3s infinite;
+  -moz-animation:    sunRayBurst 3s infinite;
+  animation:         sunRayBurst 3s infinite;
+}
+@-webkit-keyframes sunRayBurst {
+  0%   {
+    opacity: 0.3;
+    width: 140px;
+    height: 140px;
+  }
+  50% {
+    opacity: 0.7;
+    width: 160px;
+    height: 160px;
+  }
+  100% {
+    opacity: 0.3;
+    width: 140px;
+    height: 140px;
+  }
+}
+@-moz-keyframes sunRayBurst {
+  0%   {
+    opacity: 0.3;
+    width: 140px;
+    height: 140px;
+  }
+  50% {
+    opacity: 0.7;
+    width: 160px;
+    height: 160px;
+  }
+  100% {
+    opacity: 0.3;
+    width: 140px;
+    height: 140px;
+  }
+}
+@keyframes sunRayBurst {
+  0%   {
+    opacity: 0.3;
+    width: 140px;
+    height: 140px;
+  }
+  50% {
+    opacity: 0.7;
+    width: 160px;
+    height: 160px;
+  }
+  100% {
+    opacity: 0.3;
+    width: 140px;
+    height: 140px;
+  }
+}

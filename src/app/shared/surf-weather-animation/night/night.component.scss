@@ -1,8 +1,7 @@
-.sun {
-  width: 115px;
+.moon {
+  width: 83px;
   height: 115px;
-  background: #034078;
-  border-radius: 50%;
+  background-image:url("/assets/moon.svg");
   position: relative;
   display: inline-block;
   margin: auto;
@@ -24,7 +23,7 @@
 }
 .cloud__lower {
   position: absolute;
-  bottom: 0px;
+  bottom: 50px;
   right: 0px;
   z-index: 2;
 }
