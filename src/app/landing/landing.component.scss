@@ -23,6 +23,11 @@
     transform: translate3d(-1692px, 0, 0);
   }
 }
+.container__relative-items {
+  height: 350px;
+  width: 100%;
+  padding: 15px 15px 15px 165px;
+}
 .container_main {
   position: relative;
   z-index: 1;
