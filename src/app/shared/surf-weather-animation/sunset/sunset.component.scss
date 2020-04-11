@@ -1,0 +1,54 @@
+.sunset {
+  position: absolute;
+  margin: 0 auto;
+  display: inline-block;
+  left: 70px;
+}
+
+#sunset {
+  -webkit-animation: sunset 5s infinite; /* Safari 4+ */
+  -moz-animation:    sunset 5s infinite; /* Fx 5+ */
+  animation:         sunset 5s infinite; /* IE 10+, Fx 29+ */
+}
+@-webkit-keyframes sunset {
+  0%   {
+    opacity: 1;
+    top: 0px;
+  }
+  50%   {
+    opacity: 0.3;
+    top: 10px;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+@-moz-keyframes sunset {
+  0%   {
+    opacity: 1;
+    top: 0px;
+  }
+  50%   {
+    opacity: 0.3;
+    top: 10px;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+@keyframes sunset {
+  0%   {
+    opacity: 1;
+    top: 0px;
+  }
+  50%   {
+    opacity: 0.3;
+    top: 10px;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
