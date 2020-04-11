@@ -15,6 +15,7 @@ import { SunnyComponent } from './shared/surf-weather-animation/sunny/sunny.comp
 import { NightComponent } from './shared/surf-weather-animation/night/night.component';
 import { RainComponent } from './shared/surf-weather-animation/rain/rain.component';
 import { SunsetComponent } from './shared/surf-weather-animation/sunset/sunset.component';
+import { SunriseComponent } from './shared/surf-weather-animation/sunrise/sunrise.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,8 @@ import { SunsetComponent } from './shared/surf-weather-animation/sunset/sunset.c
     SunnyComponent,
     NightComponent,
     RainComponent,
-    SunsetComponent
+    SunsetComponent,
+    SunriseComponent
   ],
   imports: [
     BrowserModule,
