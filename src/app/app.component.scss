@@ -1,11 +1,48 @@
+
+//Phone
 @media only screen
     and (max-device-width: 800px),
     only screen and (max-device-width: 800px),
     only screen and (max-width: 800px)
     {
       ::ng-deep {
-        .title__top {
-         display: none!important;
+       .container_surf-data {
+
+       }
+       .container_surf-title {
+
        }
       }
-  }
+}
+
+//Ipad
+@media only screen
+    and (max-device-width: 1024px),
+    only screen and (max-device-width: 1024px),
+    only screen and (max-width: 1024px)
+    {
+      ::ng-deep {
+        .container_main {
+          .container_surf-data {
+            display: inline-block!important;
+            width: 100%!important;
+            clear: both!important;
+            position: relative!important;
+            height: inherit!important;
+            max-height: 300px;
+          }
+          .container_surf-title {
+            display: inline-block!important;
+            width: 100%!important;
+            clear: both!important;
+            position: relative!important;
+            height: inherit!important;
+            max-height: 300px;
+          }
+          .container__relative-items {
+            padding-left: 0px!important;
+            height: inherit;
+          }
+        }
+      }
+}
