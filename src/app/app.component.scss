@@ -1,4 +1,6 @@
 
+//Remember to remove important tags and figure out proper tag importance
+
 //Phone
 @media only screen
     and (max-device-width: 800px),
@@ -17,32 +19,44 @@
 
 //Ipad
 @media only screen
-    and (max-device-width: 1024px),
-    only screen and (max-device-width: 1024px),
-    only screen and (max-width: 1024px)
+    and (max-device-width: 1300px),
+    only screen and (max-device-width: 1300px),
+    only screen and (max-width: 1300px)
     {
       ::ng-deep {
-        .container_main {
-          .container_surf-data {
-            display: inline-block!important;
-            width: 100%!important;
-            clear: both!important;
-            position: relative!important;
-            height: inherit!important;
-            max-height: 300px;
-          }
-          .container_surf-title {
-            display: inline-block!important;
-            width: 100%!important;
-            clear: both!important;
-            position: relative!important;
-            height: inherit!important;
-            max-height: 300px;
-          }
-          .container__relative-items {
-            padding-left: 0px!important;
-            height: inherit;
-          }
+        html body app-landing .landing .container_main {
+          text-align: center;
+            .container_surf-data {
+              display: block!important;
+              width: 300px!important;
+              clear: both!important;
+              position: relative!important;
+              height: 200px!important;
+              max-height: 300px;
+              margin: 0 auto!important;
+              float: none!important;
+              .wave__height {
+                margin-left: 0px;
+              }
+              .surf__prep-details-container {
+                display: none;
+              }
+            }
+            .container_surf-title {
+              display: inline-block!important;
+              width: inherit!important;
+              clear: both!important;
+              position: relative!important;
+              height: inherit!important;
+              max-height: 300px;
+              margin: 0 auto!important;
+              float: none!important;
+            }
+            .container__relative-items {
+              padding-left: 0px!important;
+              height: inherit;
+            }
         }
       }
+
 }
