@@ -3,17 +3,17 @@
 
 //Phone
 @media only screen
-    and (max-device-width: 800px),
-    only screen and (max-device-width: 800px),
-    only screen and (max-width: 800px)
+    and (max-device-width: 500px),
+    only screen and (max-device-width: 500px),
+    only screen and (max-width: 500px)
     {
       ::ng-deep {
-       .container_surf-data {
-
-       }
-       .container_surf-title {
-
-       }
+        .--desktop {
+          display: none!important;
+        }
+        .--mobile {
+          display: inline-block!important;
+        }
       }
 }
 
@@ -28,13 +28,15 @@
           text-align: center;
             .container_surf-data {
               display: block!important;
-              width: 300px!important;
+              width: 500px!important;
               clear: both!important;
               position: relative!important;
               height: 200px!important;
               max-height: 300px;
               margin: 0 auto!important;
               float: none!important;
+              padding-top: 45px;
+              padding-bottom: 25px;
               .wave__height {
                 margin-left: 0px;
               }
@@ -55,6 +57,9 @@
             .container__relative-items {
               padding-left: 0px!important;
               height: inherit;
+            }
+            .container_surf-prep-details--mobile {
+              display: inline-block!important;
             }
         }
       }

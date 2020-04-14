@@ -17,6 +17,8 @@ import { RainComponent } from './shared/surf-weather-animation/rain/rain.compone
 import { SunsetComponent } from './shared/surf-weather-animation/sunset/sunset.component';
 import { SunriseComponent } from './shared/surf-weather-animation/sunrise/sunrise.component';
 import { SurfPrepDetailsComponent } from './shared/surf-prep-details/surf-prep-details.component';
+import { SurfPrepDetailsMobileComponent } from './shared/surf-prep-details-mobile/surf-prep-details-mobile.component';
+import { SurfWeatherMobileComponent } from './shared/surf-weather-mobile/surf-weather-mobile.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +34,9 @@ import { SurfPrepDetailsComponent } from './shared/surf-prep-details/surf-prep-d
     RainComponent,
     SunsetComponent,
     SunriseComponent,
-    SurfPrepDetailsComponent
+    SurfPrepDetailsComponent,
+    SurfPrepDetailsMobileComponent,
+    SurfWeatherMobileComponent
   ],
   imports: [
     BrowserModule,
