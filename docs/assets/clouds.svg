@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140px" height="41px" viewBox="0 0 140 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Weather" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-154.000000, -63.000000)">
+            <g id="overcast" transform="translate(154.000000, 63.000000)">
+                <g id="Group-3">
+                    <rect id="Rectangle" fill="#CECECE" x="36" y="24" width="103.2" height="16.8" rx="6"></rect>
+                    <rect id="Rectangle" fill="#ECECEC" x="0" y="12" width="103.2" height="16.8" rx="6"></rect>
+                    <rect id="Rectangle" fill="#FEFCFB" x="63.6" y="0" width="51.6" height="16.8" rx="6"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
