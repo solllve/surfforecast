@@ -11,12 +11,12 @@ export class WeatherDataService {
   constructor(public _http: HttpClient) {
   }
 
-  public getSurfSpots() {
-    return this._http.get('/api/county/spots/orange-county/').toPromise();
-  }
+  //public getSurfSpots() {
+  //  return this._http.get('/api/county/spots/orange-county/').toPromise();
+  //}
 
-  public getSurfWaves(spot): Promise<any> {
-    return this._http.get('/api/spot/forecast/'+ spot).toPromise();
-  }
+  //public getSurfWaves(spot): Promise<any> {
+  //  return this._http.get('/api/spot/forecast/'+ spot).toPromise();
+  //}
 
 }

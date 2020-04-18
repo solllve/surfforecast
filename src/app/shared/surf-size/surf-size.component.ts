@@ -40,13 +40,13 @@ export class SurfSizeComponent implements OnInit {
 
   ngOnInit() {
 
-    this._weatherService.getSurfSpots()
-    .then((surfSpotData: any) => {
-      var data = {};
-      data = surfSpotData.map(spotIds =>
-        this.getSurfWaveSize(get(spotIds, 'spot_id'))
-      );
-    })
+  //  this._weatherService.getSurfSpots()
+  //  .then((surfSpotData: any) => {
+  //    var data = {};
+  //    data = surfSpotData.map(spotIds =>
+  //      this.getSurfWaveSize(get(spotIds, 'spot_id'))
+  //    );
+  //  })
 
   }
 
@@ -55,33 +55,33 @@ export class SurfSizeComponent implements OnInit {
 
   }
 
-  getSurfWaveSize(spot) {
-    this._weatherService.getSurfWaves(spot)
-    .then((forecastData: any) => {
-      let waveTest = [];
-      let date = new Date();
-      let hours = date.getHours()
-      let ampm = hours >= 12 ? 'PM' : 'AM';
-      let standardhours = ((hours + 11) % 12 + 1);
-      let todaysForecast = forecastData.filter(forecast => get(forecast,'hour') == standardhours + ampm);
+  //getSurfWaveSize(spot) {
+  //  this._weatherService.getSurfWaves(spot)
+  //  .then((forecastData: any) => {
+  //    let waveTest = [];
+  //    let date = new Date();
+  //    let hours = date.getHours()
+  //    let ampm = hours >= 12 ? 'PM' : 'AM';
+  //    let standardhours = ((hours + 11) % 12 + 1);
+  //    let todaysForecast = forecastData.filter(forecast => get(forecast,'hour') == standardhours + ampm);
 
-      this.waveArray.push(
-        {
-        spotName: get(todaysForecast[0], 'spot_name'),
-        waveSize: get(todaysForecast[0], 'size_ft'),
-        lat: get(todaysForecast[0], 'latitude'),
-        long: get(todaysForecast[0], 'longitude'),
-        shape: get(todaysForecast[0].shape_detail, 'swell')
-        }
-      );
+  //    this.waveArray.push(
+  //      {
+  //      spotName: get(todaysForecast[0], 'spot_name'),
+  //      waveSize: get(todaysForecast[0], 'size_ft'),
+  //      lat: get(todaysForecast[0], 'latitude'),
+  //      long: get(todaysForecast[0], 'longitude'),
+  //      shape: get(todaysForecast[0].shape_detail, 'swell')
+  //      }
+  //    );
 
-      this.waveSizes.push(
-        get(todaysForecast[0], 'size_ft')
-      );
+  //    this.waveSizes.push(
+  //      get(todaysForecast[0], 'size_ft')
+  //    );
 
-    });
+  //  });
 
-  }
+  //}
 
 
 
