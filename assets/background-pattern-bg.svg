@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="471px" viewBox="0 0 100 471" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Desktop HD</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <pattern id="pattern-1" width="100" height="100" x="-100" y="-100" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-2"></use>
+        </pattern>
+        <image id="image-2" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGN5fIAKQAABYtJREFUeAHtneGW2ygMhZPZ/OtD9KX6/q+xf3ab6lMkit2MxzHE2D2XcxwBBgFXCLh2JnO9fP9xv2wJ16vVios4WjwPZeRn8BuWQNp1j4sixD3fhIIjcPscB0Ps+vH7uhAnDyQt3i2kkX6aRuJIu5Ae79bQKRSFQQzkj38e4F9CYoxdQhj5s/aKYSojuaHwrr8v3C63b2GIgw4uvXTevdpQP/Gq/8/pUT6+dIb75ebL0nywq9Kx1OS+cCVNxfnMZYmL4Msd6fAKz67uZ7k1sjZU7czuPWYgNxKGSs+a92tNI53KlGWecVcrUMEj2rG+33xj9RtPGq9nYYkDPAPtFehk7E++TxGv0q82Q1302LingX5jFAyEzPQ8zi3yIuR88Sz7mIBI3ymQhSLtfSBOX/JeKlyQVt72EMC13t/D5V3u6f42SG/zWUdjgPW+9hGAPyu+mJe6rP4LGC2qfMPN2+W/f01tNSPe0Mh2lRiLvjGrQ4vNFQ/p+niDH0hAGWOdLJSVhzGyZJWRnm0geHFYByf3EF6AsXADDJXL4KPAoE8mFp0MmUbIvKpXCzykKnWaKAPOwVuni6EYAMZiuTJ5T8PhURb3EHnE6z3V1HnwYvaR+w+Zdbx4MRWY7bV0Das+thukbGYxENovA/HeRwf8hsWRdjlgJikyGVAUf5ugbbwqGkj5tva2KV4wCEAzo+Jy1w/wu67VAMVVubTPMGbZZIpvG+HJaoVBDGgx9UOYTkx9tBl8BbLDB9LWUzH1PQzie2scIPK47oZgI+WKYEu0mHp92Mgd3w8bAVLi5YcA+yiHGe7bzWdpn+3cCyOEqi+Flbc9hI1TTP1LsHYqIKa+E9CfNsNJ0k+TD2ke4r74afnD3shnbnSwnI5jCRFTP4rZ4DNcYaFiKPoXazprvpi6gVBvnoDmWXgn1x4BQ4mpr0AaoLiYziktXtbWFSr+oiJi6gczppj6aIM4QRRT39cMYurGkHk3NQmxV5V3FZk26XtXSOqIqVennwmIHFU5joVL4956pz5BaOdEzmJOXdF0vLUtX6fh3Yzeqe9sl2fNiak/Q+VoeeFRYuq2zrOk+HqPkVj3M/gNSyATMJMU8c2T/D0CbVd71V7Nvji0IIbPahlifka2NRqpd+rPQOqeJ6beHdI2hWLqbfi11xZTb8fwZQ1i6rbniam/PG+iwuz0M1HDwYLjmJj6BJZxCYzF+VRMfZwN1rYspr4WqZHlwqPE1G2dZ2URU2+ejWLqzRD2VSCm3hfPZm1i6s0QNioQU28EcEt1MXUx9S3zJupwVK3eU0w0ialP4BifCF4hpj7eFF/2QEz9S4gOUEBM3YwQ67yYepcJKabeBcZ+SsTU+2HZRZOYehcYG5SIqTeAt7WqmLqY+ta5Y/XE1Gvw9HfqNRoj4uVvKR9/V2mnLAjECYOY+hmMJqZuVhJT7zlVxdR7otlBl5h6BxB7qhBT74nmFl1i6ltQa6wjpi6m3jCFxNRr8MTUazRGxMXUh6BuD0Ts0Yg/t3s8Ivn981PTJyULPGREx1vbFFM3BMXUW6dRXX/BQwDaTit56e/Ua9zeFhdTfxu02xSLqW/DrV8tMfV+WK7WJKYupr56svxZUEy9xkRMvUZjRFxMfQjqYuoOO08rSkheZVK//W4g+Ldb8tGGSc8yudu3XmZ7FU0fMIipH8woYuqHM4j+n/pYk4ipD8BfTF1MvWHazU4/E00cVTmO6RflJrCMS2Aszqe89oxe6Lffx5ljsWV9+30RnoPcDI/yLxRYl8TUWe8JKYmz1pBGJmAmPSvy7M77A21Xv6lC0wcMYuoHM4qY+uEMIqY+1iRi6gPwF1MXU2+YdrPTz0STHcXE1CeIDE5gLM6nYuqDDbGieTH1FSANLxIedWKm/gtXa/xXiRkKbQAAAABJRU5ErkJggg=="></image>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#001F54" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#001F54" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#001F54" x="0" y="0" width="100" height="471"></rect>
+        <g id="bg">
+            <rect id="Rectangle" fill="url(#pattern-1)" x="0" y="0" width="1440" height="377"></rect>
+            <rect id="Rectangle" fill="url(#linearGradient-3)" x="0" y="205" width="1440" height="211"></rect>
+        </g>
+    </g>
+</svg>
