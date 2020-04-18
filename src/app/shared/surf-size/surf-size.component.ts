@@ -13,25 +13,15 @@ import get from 'lodash/get';
   <div class="wave__height">
     <span class="wave__height--measure">3 - 5</span>
     <span class="wave__height--ft">ft</span>
-    {{exampleOutput}}
   </div>
-  <ul>
-    <li *ngFor="let waveData of waveArray | orderWaves">
-    {{waveData.waveSize}}<br/>
-    {{waveData.spotName}}<br/>
-    {{waveData.lat}}<br/>
-    {{waveData.long}}<br/>
-    {{waveData.shape}}
-    </li>
-  </ul>
 `,
   styleUrls: ['../surf-spot/surf-spot.component.scss']
 })
 
 export class SurfSizeComponent implements OnInit {
-  waveArray = [];
-  waveSizes = [];
-  exampleOutput;
+//  waveArray = [];
+//  waveSizes = [];
+//  exampleOutput;
   constructor(
     public _weatherService:  WeatherDataService
   ) {
