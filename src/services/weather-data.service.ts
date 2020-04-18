@@ -6,8 +6,6 @@ import { HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 
-
-
 export class WeatherDataService {
   surfSpotsObj;
   constructor(public _http: HttpClient) {
@@ -20,7 +18,5 @@ export class WeatherDataService {
   public getSurfWaves(spot): Promise<any> {
     return this._http.get('/api/spot/forecast/'+ spot).toPromise();
   }
-
-
 
 }
